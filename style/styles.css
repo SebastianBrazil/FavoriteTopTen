@@ -12,6 +12,16 @@ body {
     background-color: #33425B;
 }
 
+.imgSmol img {
+    width: auto;
+    height: 15vw;
+}
+
+.imgBeeg img {
+    width: auto;
+    height: auto;
+}
+
 .buttonLunk {
     text-decoration: none;
     color: #FFD944;
