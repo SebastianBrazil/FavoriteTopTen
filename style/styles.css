@@ -1,9 +1,24 @@
+@font-face {
+    font-family: Laila;
+    src: url(../assets/Laila-Regular.ttf);
+}
+
+@font-face {
+    font-family: Knewave;
+    src: url(../assets/Knewave-Regular.ttf);
+}
+
 body {
     background-color: #33425B;
 }
 
 .yellow {
     color: #FFD944;
+    font-family: Laila;
+}
+
+.yellowBorder {
+    border-color: #FFD944;
 }
 
 .hrBorder {
@@ -15,16 +30,11 @@ body {
     justify-content: center;
     background-color: #921E1E;
     border: none;
-    text-align: center;
-    width: 350px;
-    height: 80px;
-    padding-top: 5%;
-
-    /* 
-    padding: 15px 32px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px; */
+    font-size: 2vw;
+    width: 35vw;
+    height: 6vw;
+    padding-top: 1.5vw;
+    text-wrap: nowrap;
 }
 
 .imgSize {
@@ -35,8 +45,7 @@ body {
 
 .navSize {
     padding-top: 1%;
-    font-size: 150%;
-    font-weight: 250;
+    font-size: 1.5vw;
     padding-bottom: -10%;
     text-wrap: nowrap;
 }
