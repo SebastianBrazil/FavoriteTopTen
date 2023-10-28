@@ -1,3 +1,9 @@
+body {
+    background-color: #33425B;
+}
+
+/* Fonts */
+
 @font-face {
     font-family: Laila;
     src: url(../assets/Laila-Regular.ttf);
@@ -8,24 +14,7 @@
     src: url(../assets/Knewave-Regular.ttf);
 }
 
-body {
-    background-color: #33425B;
-}
-
-.imgSmol img {
-    width: auto;
-    height: 15vw;
-}
-
-.imgBeeg img {
-    width: auto;
-    height: auto;
-}
-
-.buttonLunk {
-    text-decoration: none;
-    color: #FFD944;
-}
+/* Text */
 
 .yellow {
     color: #FFD944;
@@ -48,14 +37,7 @@ body {
     text-align: center;
 }
 
-.yellowBorder {
-    border-color: #FFD944;
-}
-
-.hrBorder {
-    margin-top: -1vw;
-    border-width: 0.2vw;
-}
+/* Buttons */
 
 .buttoon {
     display: flex;
@@ -69,10 +51,26 @@ body {
     text-wrap: nowrap;
 }
 
+.buttonLunk {
+    text-decoration: none;
+    color: #FFD944;
+}
+
+/* Navbar */
+
+.hrBorder {
+    margin-top: -1vw;
+    border-width: 0.2vw;
+}
+
 .imgSize {
     padding-left: 1vw;
     padding-bottom: 2vw;
     max-width: 9vw;
+}
+
+.yellowBorder {
+    border-color: #FFD944;
 }
 
 .navSize {
@@ -85,4 +83,38 @@ body {
 .navBarUniform {
     width: 40vw;
     list-style: none;
+}
+
+/* Cards */
+
+.imgSmol img {
+    width: auto;
+    height: 15vw;
+}
+
+.imgBeeg img {
+    width: auto;
+    height: auto;
+}
+
+.cardSpace {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.cardStyle {
+    background-color: #D9D9D9;
+    height: 32vw;
+}
+
+.cardTitle {
+    text-align: center;
+    font-family: Laila;
+    font-size: 1.5vw;
+}
+
+.cardText {
+    text-align: center;
+    font-family: Laila;
+    font-size: 1vw;
 }
